@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e9ab5e9df1c04cc3007ba22f0d8e4ef1 {
+                    position: relative;
+                    width: 80.0%;
+                    height: 100.0%;
+                    left: 10.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e9ab5e9df1c04cc3007ba22f0d8e4ef1" ></div>
+        
+</body>
+<script>    
+    
+            var map_e9ab5e9df1c04cc3007ba22f0d8e4ef1 = L.map(
+                "map_e9ab5e9df1c04cc3007ba22f0d8e4ef1",
+                {
+                    center: [61.3508, 15.0973],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[40, -180], [75, 180]],
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    minLot: -20,
+                    maxLot: 60,
+                    scrollWheelZoom: false,
+                    dragging: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6fe71c1d6539ecf2c53b3f9601a67527 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+            var circle_marker_83dacdcd16d4ccd675d2cf1e7ab0cec5 = L.circleMarker(
+                [57.7210839, 12.9407407],
+                {"bubblingMouseEvents": true, "color": "#e41a1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4956896551724138, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_ed6c0fda2900c8f5791cba47e49e95fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be24d0d1519be1eeac903b3550894354 = $(`<div id="html_be24d0d1519be1eeac903b3550894354" style="width: 100.0%; height: 100.0%;">City: Borås. Texts: 69</div>`)[0];
+            popup_ed6c0fda2900c8f5791cba47e49e95fe.setContent(html_be24d0d1519be1eeac903b3550894354);
+        
+
+        circle_marker_83dacdcd16d4ccd675d2cf1e7ab0cec5.bindPopup(popup_ed6c0fda2900c8f5791cba47e49e95fe)
+        ;
+
+        
+    
+    
+            var circle_marker_e39f09eff83195083eaf0ad25a8e4714 = L.circleMarker(
+                [59.3717379, 16.5051474],
+                {"bubblingMouseEvents": true, "color": "#377eb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.616379310344827, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_583b0d35eaa31fe5014c32dacf5afedb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a335cc3381cd7ed6d264b4612d2bfae = $(`<div id="html_9a335cc3381cd7ed6d264b4612d2bfae" style="width: 100.0%; height: 100.0%;">City: Eskilstuna. Texts: 921</div>`)[0];
+            popup_583b0d35eaa31fe5014c32dacf5afedb.setContent(html_9a335cc3381cd7ed6d264b4612d2bfae);
+        
+
+        circle_marker_e39f09eff83195083eaf0ad25a8e4714.bindPopup(popup_583b0d35eaa31fe5014c32dacf5afedb)
+        ;
+
+        
+    
+    
+            var circle_marker_b1d3308663c5f16ddf2fff6a163d4a79 = L.circleMarker(
+                [57.7072326, 11.9670171],
+                {"bubblingMouseEvents": true, "color": "#4daf4a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.043103448275861, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_6e89a1b8253a776ff3d8deea86914c5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58cc82eaca48e7598b8815154ad56841 = $(`<div id="html_58cc82eaca48e7598b8815154ad56841" style="width: 100.0%; height: 100.0%;">City: Göteborg. Texts: 1,398</div>`)[0];
+            popup_6e89a1b8253a776ff3d8deea86914c5a.setContent(html_58cc82eaca48e7598b8815154ad56841);
+        
+
+        circle_marker_b1d3308663c5f16ddf2fff6a163d4a79.bindPopup(popup_6e89a1b8253a776ff3d8deea86914c5a)
+        ;
+
+        
+    
+    
+            var circle_marker_8c7ffaadfe87edbc5fa249794ebb96a4 = L.circleMarker(
+                [59.049722, 18.266667],
+                {"bubblingMouseEvents": true, "color": "#984ea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#984ea3", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4813218390804598, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_950233df0a9bb62433d28efe3af7db71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21ca87b74acae0b11310cccca9afb98f = $(`<div id="html_21ca87b74acae0b11310cccca9afb98f" style="width: 100.0%; height: 100.0%;">City: Haninge. Texts: 67</div>`)[0];
+            popup_950233df0a9bb62433d28efe3af7db71.setContent(html_21ca87b74acae0b11310cccca9afb98f);
+        
+
+        circle_marker_8c7ffaadfe87edbc5fa249794ebb96a4.bindPopup(popup_950233df0a9bb62433d28efe3af7db71)
+        ;
+
+        
+    
+    
+            var circle_marker_79464f9b115e5091e4c7e1e4e1d4a23a = L.circleMarker(
+                [56.1621073, 15.5866422],
+                {"bubblingMouseEvents": true, "color": "#ff7f00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9798850574712645, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_54b7a9678d751b0dabfeebebe6893b45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6847a6bec3d77207b1d587d8097d7dae = $(`<div id="html_6847a6bec3d77207b1d587d8097d7dae" style="width: 100.0%; height: 100.0%;">City: Karlskrona. Texts: 554</div>`)[0];
+            popup_54b7a9678d751b0dabfeebebe6893b45.setContent(html_6847a6bec3d77207b1d587d8097d7dae);
+        
+
+        circle_marker_79464f9b115e5091e4c7e1e4e1d4a23a.bindPopup(popup_54b7a9678d751b0dabfeebebe6893b45)
+        ;
+
+        
+    
+    
+            var circle_marker_c96fec406bd12650f0834aeddb6c2bb6 = L.circleMarker(
+                [56.0293778, 14.1566859],
+                {"bubblingMouseEvents": true, "color": "#ffff33", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff33", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.0, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_14652c119b6010695cfd54ec916f8f7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db6a1c0f5d5f33e118db712f028b6785 = $(`<div id="html_db6a1c0f5d5f33e118db712f028b6785" style="width: 100.0%; height: 100.0%;">City: Kristianstad. Texts: 4,176</div>`)[0];
+            popup_14652c119b6010695cfd54ec916f8f7e.setContent(html_db6a1c0f5d5f33e118db712f028b6785);
+        
+
+        circle_marker_c96fec406bd12650f0834aeddb6c2bb6.bindPopup(popup_14652c119b6010695cfd54ec916f8f7e)
+        ;
+
+        
+    
+    
+            var circle_marker_dea494fb9ac159dbdcfdca59e5fd74e8 = L.circleMarker(
+                [58.4098135, 15.6245252],
+                {"bubblingMouseEvents": true, "color": "#a65628", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a65628", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.579022988505747, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_a8ac5940af003aa890db3f38c1fb4660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a864c0a4daee4705c55c626bf5fc0c5e = $(`<div id="html_a864c0a4daee4705c55c626bf5fc0c5e" style="width: 100.0%; height: 100.0%;">City: Linköping. Texts: 359</div>`)[0];
+            popup_a8ac5940af003aa890db3f38c1fb4660.setContent(html_a864c0a4daee4705c55c626bf5fc0c5e);
+        
+
+        circle_marker_dea494fb9ac159dbdcfdca59e5fd74e8.bindPopup(popup_a8ac5940af003aa890db3f38c1fb4660)
+        ;
+
+        
+    
+    
+            var circle_marker_fff5bb746125ee51db4056352c5061d7 = L.circleMarker(
+                [55.6052931, 13.0001566],
+                {"bubblingMouseEvents": true, "color": "#f781bf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f781bf", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.655172413793103, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_e42a9796c62874cd9ac5f3b4474885be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecda27e5ecb875561989bd20879d438c = $(`<div id="html_ecda27e5ecb875561989bd20879d438c" style="width: 100.0%; height: 100.0%;">City: Malmö. Texts: 1,344</div>`)[0];
+            popup_e42a9796c62874cd9ac5f3b4474885be.setContent(html_ecda27e5ecb875561989bd20879d438c);
+        
+
+        circle_marker_fff5bb746125ee51db4056352c5061d7.bindPopup(popup_e42a9796c62874cd9ac5f3b4474885be)
+        ;
+
+        
+    
+    
+            var circle_marker_ea5ab29d1743359f4d2658a8ec0636ab = L.circleMarker(
+                [56.4596131, 13.5919834],
+                {"bubblingMouseEvents": true, "color": "#999999", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#999999", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.603448275862069, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_ec7cc598ede99013c52d2491f12ab1de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7eb7b850b1efc5b03eada71ba088e489 = $(`<div id="html_7eb7b850b1efc5b03eada71ba088e489" style="width: 100.0%; height: 100.0%;">City: Markaryd. Texts: 84</div>`)[0];
+            popup_ec7cc598ede99013c52d2491f12ab1de.setContent(html_7eb7b850b1efc5b03eada71ba088e489);
+        
+
+        circle_marker_ea5ab29d1743359f4d2658a8ec0636ab.bindPopup(popup_ec7cc598ede99013c52d2491f12ab1de)
+        ;
+
+        
+    
+    
+            var circle_marker_8604de2184b55ff2ac976e89b0f29fd0 = L.circleMarker(
+                [58.7545409, 17.0120656],
+                {"bubblingMouseEvents": true, "color": "#e41a1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3879310344827586, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_d1ee223c7a4e3006f058d3a6a0a5bba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b631b117c69829a0fbb3256a1b26bd9 = $(`<div id="html_3b631b117c69829a0fbb3256a1b26bd9" style="width: 100.0%; height: 100.0%;">City: Nyköping. Texts: 54</div>`)[0];
+            popup_d1ee223c7a4e3006f058d3a6a0a5bba5.setContent(html_3b631b117c69829a0fbb3256a1b26bd9);
+        
+
+        circle_marker_8604de2184b55ff2ac976e89b0f29fd0.bindPopup(popup_d1ee223c7a4e3006f058d3a6a0a5bba5)
+        ;
+
+        
+    
+    
+            var circle_marker_cb821155ab9de9323f4164820503b8c8 = L.circleMarker(
+                [59.3957349, 17.9032284],
+                {"bubblingMouseEvents": true, "color": "#377eb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08620689655172414, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_9a2b06c5f22eff5e85ef1a7dbb76aab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_742c42edef8974a9f05dd238504eb8ac = $(`<div id="html_742c42edef8974a9f05dd238504eb8ac" style="width: 100.0%; height: 100.0%;">City: Tensta. Texts: 12</div>`)[0];
+            popup_9a2b06c5f22eff5e85ef1a7dbb76aab7.setContent(html_742c42edef8974a9f05dd238504eb8ac);
+        
+
+        circle_marker_cb821155ab9de9323f4164820503b8c8.bindPopup(popup_9a2b06c5f22eff5e85ef1a7dbb76aab7)
+        ;
+
+        
+    
+    
+            var circle_marker_9273a5e565f1b39fb9f4670bc068cae6 = L.circleMarker(
+                [56.8787183, 14.8094385],
+                {"bubblingMouseEvents": true, "color": "#4daf4a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.44683908045977, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_8063bf7f1748e70c284150bc5fc1b3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_788539b3f2432d232b09e5fbff49cc6c = $(`<div id="html_788539b3f2432d232b09e5fbff49cc6c" style="width: 100.0%; height: 100.0%;">City: Växjö. Texts: 619</div>`)[0];
+            popup_8063bf7f1748e70c284150bc5fc1b3c0.setContent(html_788539b3f2432d232b09e5fbff49cc6c);
+        
+
+        circle_marker_9273a5e565f1b39fb9f4670bc068cae6.bindPopup(popup_8063bf7f1748e70c284150bc5fc1b3c0)
+        ;
+
+        
+    
+    
+            var circle_marker_9751338e3706e222995e05cda60842d1 = L.circleMarker(
+                [59.2747287, 15.2151181],
+                {"bubblingMouseEvents": true, "color": "#984ea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#984ea3", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.22270114942528735, "stroke": true, "weight": 3}
+            ).addTo(map_e9ab5e9df1c04cc3007ba22f0d8e4ef1);
+        
+    
+        var popup_7d27f440f63621093af5a5744f8d8a5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60b931129d5d400270b9057903940cee = $(`<div id="html_60b931129d5d400270b9057903940cee" style="width: 100.0%; height: 100.0%;">City: Örebro. Texts: 31</div>`)[0];
+            popup_7d27f440f63621093af5a5744f8d8a5e.setContent(html_60b931129d5d400270b9057903940cee);
+        
+
+        circle_marker_9751338e3706e222995e05cda60842d1.bindPopup(popup_7d27f440f63621093af5a5744f8d8a5e)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,52 @@
+<style>
+.output_png {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+h1,h2 {
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    font-family: ariel;
+    border-radius: 80px
+}
+
+h3 {
+    text-align: left;
+    border-style: solid;
+    border-width: 3px;
+    padding: 12px;
+    margin: 0;
+    color: black;
+    font-family: ariel;
+    border-radius: 80px;
+    border-color: gold;
+}
+
+h4 {
+    text-align: left;
+    background-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+    margin: 0;
+    font-family: ariel;
+    color: white;
+}
+/*
+body, p {
+    font-family: ariel;
+    font-size: 15px;
+    color: charcoal;
+}
+div {
+    font-size: 14px;
+    margin: 0;
+
+}
+*/
+</style>
