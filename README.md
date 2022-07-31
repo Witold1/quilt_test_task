@@ -1,8 +1,7 @@
 ## Project
 **Sweden Tweeting and Social problems**.
 
-<img src="./figures/sweden-pictoral.JPG" align="center" alt="Sweden map - reddit.com/user/ConservationOfWumbo" width="70%">
-
+<img src="./figures/external/sweden-pictoral.JPG" align="center" alt="Sweden map - reddit.com/user/ConservationOfWumbo" width="30%" height="50%">
 <!--- ![image](https://wow.zamimg.com/uploads/screenshots/normal/1053887.jpg) --->
 
 ## Task description
@@ -15,15 +14,24 @@ Substantive **methodological frame** presumes that "tweeting" (as the form of so
 **Gathering of datasets were outsourced**, same for some methodological features (i.e.
   categories of problems and their respective "keywords" were provided)
 
-Current **raw report available**, see [[html]](https://htmlpreview.github.io/) [[ipynb]](https://nbviewer.org/)
-
-Current **report available** on demand.
+Current **report available**, see [[html]](https://htmlpreview.github.io/?https://github.com/Witold1/quilt_test_task/blob/master/reports/Report_final.html) [[ipynb]](https://nbviewer.org/github/Witold1/quilt_test_task/blob/master/notebooks/Report_final.ipynb)
+<!--- Current **raw report available** on demand. --->
 
 ## Selected charts
 
-|chart 1 	| chart 2 	| chart 3  	|
-|-------	|----------	|----------	|
-|link 1   |link 2     | link 3    |
+<table>
+<thead>
+  <tr>
+    <th><img src="./figures/CitiesAndProblems.png?raw=true" alt="Task 1: Cities and Problems" width="250" height="146"></th>
+    <th><img src="./figures/TextByCat.png?raw=true" alt="Task 2: Texts By Category" width="250" height="119"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="2"><img src="./figures/YOYSearchVolumes.png?raw=true" alt="Task 2: YOY Search Volumes" width="500" height="295"></td>
+  </tr>
+</tbody>
+</table>
 
 ## Structure of repository
 ```
@@ -46,14 +54,14 @@ Project structure:
 ¦
 +--reports                    <- folder for reports (i.e. *.pptx, *.html, *.ipynb)
 ¦
-+--docs                       <- folder documentation files
++--docs                       <- folder for documentation files
 ¦
 +--README.md
 ```
 
 ## Links
 * Placeholder
-* Feature engineering. Preprocessing. Charts [Here](https://nbviewer.org/)
+<!--- * Feature engineering. Preprocessing. Charts [Here](https://nbviewer.org/) --->
 
 ## License and legals
 Ask before use.
